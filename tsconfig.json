@@ -1,0 +1,10 @@
+{
+  "include": ["./src/eyeson-node-svg-layer.js"],
+  "exclude": ["./src/**/*.test.js", "__mocks__", "node_modules"],
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outFile": "./eyeson-node-svg-layer.d.ts",
+  }
+}
