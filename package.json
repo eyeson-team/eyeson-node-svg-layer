@@ -1,7 +1,7 @@
 {
-  "name": "eyeson-node-svg-layer",
-  "version": "1.0.0",
-  "description": "Create SVG Layer and use with eyeson-node",
+  "name": "@eyeson/node-svg-layer",
+  "version": "1.0.1",
+  "description": "Create SVG Layer and use with @eyeson/node",
   "main": "./src/eyeson-node-svg-layer.js",
   "module": "./src/eyeson-node-svg-layer.mjs",
   "types": "./eyeson-node-svg-layer.d.ts",

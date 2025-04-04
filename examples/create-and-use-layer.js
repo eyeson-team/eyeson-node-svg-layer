@@ -1,5 +1,5 @@
-const Eyeson = require('eyeson-node');
-const EyesonSvgLayer = require('../src/eyeson-node-svg-layer');
+const Eyeson = require('@eyeson/node');
+const EyesonSvgLayer = require('@eyeson/node-svg-layer');
 
 const eyeson = new Eyeson({ apiKey: 'API_KEY' });
 

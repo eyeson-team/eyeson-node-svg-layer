@@ -1,20 +1,20 @@
-# eyeson-node-svg-layer JavaScript SVG Layer creation plugin
+# @eyeson/node-svg-layer JavaScript SVG Layer creation plugin
 
 A Node.js plugin to define and create overlay or background SVG layer to use with
-[eyeson-node](https://github.com/eyeson-team/eyeson-node).
+[@eyeson/node](https://github.com/eyeson-team/eyeson-node).
 
 ## Installation
 
-Add eyeson-node-svg-layer to your node project using `npm` or `yarn`.
+Add @eyeson/node-svg-layer to your node project using `npm` or `yarn`.
 
 ```sh
-$ npm install --save eyeson-node eyeson-node-svg-layer
+$ npm install --save @eyeson/node @eyeson/node-svg-layer
 # or
-$ yarn add eyeson-node eyeson-node-svg-layer
+$ yarn add @eyeson/node @eyeson/node-svg-layer
 ```
 
 > [!NOTE]
-> Minimum required version of eyeson-node is 1.3.3!
+> Minimum required version of @eyeson/node is 1.3.3!
 
 ## Usage
 
@@ -22,8 +22,8 @@ Get an API-KEY from
 [developers.eyeson.team](https://developers.eyeson.team).
 
 ```js
-import Eyeson from 'eyeson-node';
-import EyesonSvgLayer from 'eyeson-node-svg-layer';
+import Eyeson from '@eyeson/node';
+import EyesonSvgLayer from '@eyeson/node-svg-layer';
 
 const eyeson = new Eyeson({ apiKey: '< api-key >' }); // configure to use your api key
 const layer = new EyesonSvgLayer();
@@ -38,8 +38,8 @@ You can create and apply foreground or background layers by simply programming
 them!
 
 ```js
-import Eyeson from 'eyeson-node';
-import EyesonSvgLayer from 'eyeson-node-svg-layer';
+import Eyeson from '@eyeson/node';
+import EyesonSvgLayer from '@eyeson/node-svg-layer';
 
 const eyeson = new Eyeson({ apiKey: '< api-key >' }) // configure to use your api key
 
@@ -63,7 +63,7 @@ await user.sendLayer(overlay);
 Save the resulting image as preview:
 
 ```js
-import EyesonSvgLayer from 'eyeson-node-svg-layer';
+import EyesonSvgLayer from '@eyeson/node-svg-layer';
 
 const layer = new EyesonSvgLayer();
 layer.addText('...');
